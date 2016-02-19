@@ -1,8 +1,14 @@
 # CSP's visual style reference
-Introduction...
+Welcome to the landing page for CSP's aesthetics repository. The GitHub page for the project can be found [here](http://csp-inc.github.io/aesthetics/). This page can be edited by checking out the `gh-pages` branch.
+
+```
+git fetch
+git checkout gh-pages
+```
 
 Directory | Description
 --- | ---
+[\fonts](fonts/) | A collection of fonts used across CSP visual elements
 [\icons](icons/) | A collection of icons used frequently in CSP maps
 [\logos](logos/) | A collection of CSP logos
 [\palettes](palettes/) | A collection of palettes used frequently in CSP graphics
