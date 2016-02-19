@@ -18,7 +18,7 @@ Directory | Description
 
 ## Objectives
 1. thing one
-..1. thing one sub-thing
+  1. thing one sub-thing
 2. thing two
 
 ## CSP's visualization strategy
