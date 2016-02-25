@@ -1,0 +1,22 @@
+% Margins taken from word template, headheight set based on pdflatex warnings
+\usepackage[top=1.4in, left=1.25in, right=1.25in, bottom=1in, 
+            headheight=76.4pt, headsep=0pt]{geometry}
+% for head and footer
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+% for changing color of footer text
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage[utf8]{inputenc}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+% Makes header and footer appear on first page
+\renewcommand{\thispagestyle}[1]{}
+% Removes section reminder at top right of each page
+\rhead{}
+\chead{\includegraphics{CSP_logo.png}}
+\cfoot{\textcolor{black!60}{\scriptsize11050 PIONEER TRAIL • SUITE 202 •
+    TRUCKEE, CALIFORNIA • 96161 • (p) 530.214.8905 $\mid$ (f) 530.214.8907\\5 
+    OLD TOWN SQUARE • SUITE 205 • FORT COLLINS, COLORADO • 80524 • (p)
+    970.484.2898 $\mid$ (f) 970.484.1069 info@csp-inc.org $\mid$
+www.csp-inc.org}}
